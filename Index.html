@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Agrinho - Sustentabilidade</title>
+    <style>
+        /* Define layout flexível para empurrar o rodapé para baixo */
+        html, body { height: 100%; margin: 0; }
+        body { 
+            font-family: Arial, sans-serif; 
+            background-color: #f4f9f4; 
+            color: #333; 
+            display: flex; 
+            flex-direction: column; 
+        }
+        
+        header { background-color: #2e7d32; color: white; text-align: center; padding: 2rem; }
+        
+        /* Torna a área de conteúdo principal expansível */
+        main { flex: 1; }
+
+        /* Banner centralizado para a imagem com foco em tecnologia e agro */
+        .banner-agro {
+            text-align: center;
+            padding: 2rem 1rem 0 1rem;
+        }
+        .banner-agro img {
+            max-width: 100%;
+            height: auto;
+            width: 320px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            background-color: white;
+        }
+        
+        /* Container responsivo que funciona bem em PC e celular */
+        .container { 
+            display: flex; 
+            justify-content: center; 
+            gap: 2rem; 
+            padding: 2rem; 
+            flex-wrap: wrap; 
+            max-width: 1200px; 
+            margin: 0 auto; 
+        }
+        
+        /* Cards modernos com transição suave e largura adaptável */
+        .card { 
+            background: white; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+            flex: 1 1 300px; 
+            max-width: 500px; 
+            padding: 1.5rem; 
+            box-sizing: border-box;
+        }
+        
+        h2 { color: #1b5e20; margin-top: 0; }
+        
+        /* Rodapé seguro que não cobre o conteúdo */
+        footer { background-color: #1b5e20; color: white; text-align: center; padding: 1rem; width: 100%; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Agrinho: Agro Forte, Futuro Sustentável</h1>
+        <p>O equilíbrio perfeito entre a produção tecnológica e a preservação ambiental</p>
+    </header>
+
+    <main>
+        <!-- Seção da Imagem Temática -->
+        <section class="banner-agro">
+            <img="https://pngtree.com" alt="Conceito de Agricultura Inteligente com Trator e Drone no Campo">
+        </section>
+
+        <div class="container">
+            <section class="card">
+                <h2>Tecnologia no Campo</h2>
+                <p>O uso de drones, sensores de solo e tratores autônomos reduz o desperdício de água e insumos químicos, aumentando a eficiência da colheita sem agredir a terra.</p>
+            </section>
+
+            <section class="card">
+                <h2>Preservação Ativa</h2>
+                <p>Manter matas ciliares e adotar a rotação de culturas protege a biodiversidade local e garante que o solo continue fértil e saudável para as próximas gerações.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>Desenvolvido para o Concurso Agrinho - Robótica e Programação</p>
+    </footer>
+
+</body>
+</html>
